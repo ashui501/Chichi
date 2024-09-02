@@ -24,7 +24,7 @@ class Config(object):
     )
     DB_NAME = getenv("DB_NAME", "HoshinoBotV3")
     REDIS_URL = "redis://default:wK6ZCiclq4iQKYpgfY90v6kd6WdPfEwl@redis-10186.c263.us-east-1-2.ec2.cloud.redislabs.com:10186/default"
-    DATABASE_URL = getenv("DATABASE_URL", None)
+    DATABASE_URL = getenv("DATABASE_URL", "postgres://pliimhmp:x_jRdB_KoO9xlWW1kA0vkRRDcDb8eD8P@rogue.db.elephantsql.com/pliimhmp")
 
     # ɴᴏ ᴇᴅɪᴛ ᴢᴏɴᴇ
     if DATABASE_URL.startswith("postgres://"):
