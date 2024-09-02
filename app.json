@@ -21,11 +21,11 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     } 
    ],
-   "stack": "heroku-22",
+   "stack": "heroku-24",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "16"
          },
          "plan": "heroku-postgresql"
       }
